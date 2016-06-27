@@ -1,5 +1,7 @@
 # Upload to JitPack
 
+[![](https://jitpack.io/v/nisrulz/UploadToJitpack.svg)](https://jitpack.io/#nisrulz/UploadToJitpack)
+
 [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/easydeviceinfo) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz) 
 
 Base repository to demonstrate the process of uploading an [`aar`](https://sites.google.com/a/android.com/tools/tech-docs/new-build-system/aar-format)/[`jar`](https://en.wikipedia.org/wiki/JAR_(file_format)) to [JitPack](https://jitpack.io/).
@@ -67,6 +69,12 @@ The process is as follows
   ```
 
 1. Let the world know of your **AwesomeLib** :smile:
+  > + Add a readme that explains how to integrate and use your Awesome library
+  > + Add a license block as in this repo
+  > + Also include the JitPack badge provided by jitpack in your readme
+  > + Promote your lib on social media so that others can know about it.
+  > + Always add a working sample app in your project that demonstrates your library in use.
+  > + Add screenshots if possible in your readme.
 
 
 License
