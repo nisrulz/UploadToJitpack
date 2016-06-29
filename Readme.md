@@ -62,6 +62,9 @@ The process is as follows
 
   ![screenshot2](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc2.jpeg)
 
+
+  Selectable code
+  
   ```gradle
   repositories { 
       jcenter()
