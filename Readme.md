@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/nisrulz/UploadToJitpack.svg)](https://jitpack.io/#nisrulz/UploadToJitpack)
 
-[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/easydeviceinfo) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz) 
+[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz) 
 
 Base repository to demonstrate the process of uploading an [`aar`](https://sites.google.com/a/android.com/tools/tech-docs/new-build-system/aar-format)/[`jar`](https://en.wikipedia.org/wiki/JAR_(file_format)) to [JitPack](https://jitpack.io/).
 
@@ -55,8 +55,10 @@ The process is as follows
 1. Once everything is pushed and the release TAG is also pushed, goto `https://jitpack.io/#username/reponame` where replace `username` with your github username and `reponame` with the reponame of the android project.
 
 1. Select the release you would like to share by clicking the ‘Get It’ button next to the list of releases of your repository.
+  ![screenshot1](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc1.png)
 
 1. Next the same page at Jitpack would show you how to use the library in your other android projects. Something like below
+  ![screenshot2](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc2.png)
 
   ```gradle
   repositories { 
