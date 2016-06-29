@@ -55,10 +55,12 @@ The process is as follows
 1. Once everything is pushed and the release TAG is also pushed, goto `https://jitpack.io/#username/reponame` where replace `username` with your github username and `reponame` with the reponame of the android project.
 
 1. Select the release you would like to share by clicking the ‘Get It’ button next to the list of releases of your repository.
-  ![screenshot1](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc1.png)
+
+  ![screenshot1](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc1.jpeg)
 
 1. Next the same page at Jitpack would show you how to use the library in your other android projects. Something like below
-  ![screenshot2](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc2.png)
+
+  ![screenshot2](https://github.com/nisrulz/UploadToJitpack/raw/master/img/sc2.jpeg)
 
   ```gradle
   repositories { 
