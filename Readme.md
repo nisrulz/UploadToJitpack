@@ -7,7 +7,7 @@
 [![AndroidDev Digest](https://img.shields.io/badge/AndroidDev%20Digest-%23101-blue.svg)](https://www.androiddevdigest.com/digest-101/)
 
 ### Show some :heart:
-[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz) 
+[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
 
 Base repository to demonstrate the process of uploading an [`aar`](https://sites.google.com/a/android.com/tools/tech-docs/new-build-system/aar-format)/[`jar`](https://en.wikipedia.org/wiki/JAR_(file_format)) to [JitPack](https://jitpack.io/).
 
@@ -28,7 +28,7 @@ The process is as follows
    > 1. Select the `Dependencies` tab
    > 1. At the bottom is a `+` icon, click that and select `Module dependency` and select your `library` module.
    > 1. Press `apply` or `ok`.
-   
+
 1. Once project is synced, add the android-maven-gradle-plugin to classpath in build.gradle file at root project level.
   ```gradle
    dependencies {
@@ -39,14 +39,14 @@ The process is as follows
       classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
       ..
   ```
-  
+
 1. Next, apply the android-maven-gradle-plugin to the build.gradle file at library module level. Also add the group variable.
   ```gradle
    apply plugin: 'com.android.library'
-   
+
    // Required plugin in library module
    apply plugin: 'com.github.dcendents.android-maven'
-   
+
    // Replace nisrulz with <your_github_username>
    group='com.github.nisrulz'
   ```  
@@ -56,8 +56,8 @@ The process is as follows
   git tag -a 1.0 -m "v1.0"
   git push origin 1.0
   ```
-  
-1. Once everything is pushed and the release TAG is also pushed, goto `https://jitpack.io/#username/reponame` where replace `username` with your github username and `reponame` with the reponame of the android project.
+
+1. Once everything is pushed and the release TAG is also pushed, goto `https://www.jitpack.io/#username/reponame` where replace `username` with your github username and `reponame` with the reponame of the android project.
 
 1. Select the release you would like to share by clicking the ‘Get It’ button next to the list of releases of your repository.
 
@@ -69,9 +69,9 @@ The process is as follows
 
 
   Selectable code
-  
+
   ```gradle
-  repositories { 
+  repositories {
       jcenter()
       maven { url “https://jitpack.io” }
   }
