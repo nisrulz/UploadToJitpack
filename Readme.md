@@ -7,7 +7,8 @@
 [![AndroidDev Digest](https://img.shields.io/badge/AndroidDev%20Digest-%23101-blue.svg)](https://www.androiddevdigest.com/digest-101/)
 
 ### Show some :heart:
-[![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz) [![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz)
+[![GitHub stars](https://img.shields.io/github/stars/nisrulz/UploadToJitpack.svg?style=social&label=Star)](https://github.com/nisrulz/UploadToJitpack) [![GitHub forks](https://img.shields.io/github/forks/nisrulz/UploadToJitpack.svg?style=social&label=Fork)](https://github.com/nisrulz/UploadToJitpack/fork) [![GitHub watchers](https://img.shields.io/github/watchers/nisrulz/UploadToJitpack.svg?style=social&label=Watch)](https://github.com/nisrulz/UploadToJitpack) [![GitHub followers](https://img.shields.io/github/followers/nisrulz.svg?style=social&label=Follow)](https://github.com/nisrulz/UploadToJitpack)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/nisrulz.svg?style=social)](https://twitter.com/nisrulz) 
 
 Base repository to demonstrate the process of uploading an [`aar`](https://sites.google.com/a/android.com/tools/tech-docs/new-build-system/aar-format)/[`jar`](https://en.wikipedia.org/wiki/JAR_(file_format)) to [JitPack](https://jitpack.io/).
 
