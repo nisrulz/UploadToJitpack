@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
   compileSdkVersion 27
-  buildToolsVersion "27.0.1"
+  buildToolsVersion "27.0.2"
 
   defaultConfig {
     applicationId "github.nisrulz.sample.uploadtojitpack"
@@ -22,8 +22,12 @@ android {
 dependencies {
   compile fileTree(include: ['*.jar'], dir: 'libs')
   testCompile 'junit:junit:4.12'
-  compile 'com.android.support:appcompat-v7:27.0.1'
-  compile 'com.android.support:design:27.0.1'
+  compile 'com.android.support:appcompat-v7:27.0.2'
+  compile 'com.android.support:design:27.0.2'
+
+  // Include library as a module
   // compile project(':awesomelib')
+
+  // Include library from jitpack repository
   compile 'com.github.nisrulz:UploadToJitpack:v1.0'
 }
