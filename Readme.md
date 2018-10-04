@@ -35,11 +35,12 @@ The process is as follows
 1. Once project is synced, add the android-maven-gradle-plugin to classpath in build.gradle file at root project level.
   ```gradle
    dependencies {
-      classpath 'com.android.tools.build:gradle:2.1.2'
+      classpath 'com.android.tools.build:gradle:3.1.3'
+
       ..
-      ..
+
       // Setup the android-maven-gradle-plugin in the classpath
-      classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+      classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
       ..
   ```
 
@@ -75,6 +76,7 @@ The process is as follows
 
   ```gradle
   repositories {
+      google()
       jcenter()
       maven { url “https://jitpack.io” }
   }
