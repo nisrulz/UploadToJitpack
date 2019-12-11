@@ -35,7 +35,7 @@ The process is as follows
 1. Once project is synced, add the android-maven-gradle-plugin to classpath in build.gradle file at root project level.
     ```gradle
     dependencies {
-      classpath 'com.android.tools.build:gradle:3.6.0-beta04'
+      classpath 'com.android.tools.build:gradle:3.6.0-beta05'
     
       ..
     
