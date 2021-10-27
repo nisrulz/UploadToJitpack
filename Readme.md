@@ -79,6 +79,13 @@ The process is as follows
         }
     }
     ```
+8. Create a `jitpack.yml` file at the root of your project and add below config:
+    
+   ```yml
+   jdk:
+    - openjdk11
+   ```
+   > This is needed because from AGP 7.0 onwards JDK 11 is required for the build to succeed. 
 
 8. Create a release TAG in git
 
