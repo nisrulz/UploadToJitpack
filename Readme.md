@@ -79,6 +79,8 @@ The process is as follows
         }
     }
     ```
+   > Test everything builds and artifacts are published to Maven Local by running `./gradlew publishToMavenLocal` at the root of the project.
+   
 8. Create a `jitpack.yml` file at the root of your project and add below config:
     
    ```yml
