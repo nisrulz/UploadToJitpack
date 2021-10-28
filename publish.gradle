@@ -1,6 +1,7 @@
 /* To test everything builds and artifacts are published to
- * Maven Local, run `./gradlew publishToMavenLocal` at the
- * root of the project. */
+ * mavenLocal ($HOME/.m2/repository), 
+ * run `./gradlew publishToMavenLocal` at the root of the project. 
+ */ 
 
 // Required plugin for publishing library module
 apply plugin: 'maven-publish'
