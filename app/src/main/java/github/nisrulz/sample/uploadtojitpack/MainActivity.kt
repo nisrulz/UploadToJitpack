@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun wireupUserInterface(binding: ActivityMainBinding) {
         binding.apply {
-            setSupportActionBar(toolbar)
-
             fab.setOnClickListener { view: View? ->
                 view?.let {
                     Snackbar.make(
