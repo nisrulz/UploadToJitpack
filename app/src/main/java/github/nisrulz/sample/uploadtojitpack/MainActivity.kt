@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                 view?.let {
                     Snackbar.make(
                         view,
-                        AwesomeLib.getInstance().makeAwesome("Nishant"),
+                        AwesomeLib.makeAwesome("World"),
                         Snackbar.LENGTH_LONG
                     ).setAction("Ok") { }.show()
                 }
